@@ -44,10 +44,24 @@ h1:hover {
 
 
 */
-.name{
+/* .name{
   position: relative;
   right: -170px;
-  top: -10px;
+  top: 1px;
+} */
+
+.right{
+  position: relative;
+  right: -180px;
+  top: -60px;
+}
+.name1{
+position: relative;
+top: 20px;
+font-size: 10px;
+}
+.name{
+  padding-top: -10px;
 }
 .body {
   display: flex;
