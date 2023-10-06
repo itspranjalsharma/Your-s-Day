@@ -50,17 +50,17 @@ h1:hover {
   top: 1px;
 } */
 
-.right{
+.right {
   position: relative;
   right: -180px;
   top: -60px;
 }
-.name1{
-position: relative;
-top: 20px;
-font-size: 10px;
+.name1 {
+  position: relative;
+  top: 20px;
+  font-size: 10px;
 }
-.name{
+.name {
   padding-top: -10px;
 }
 .body {
