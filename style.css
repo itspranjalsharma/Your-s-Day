@@ -1,8 +1,8 @@
 body {
   height: 100vh;
-  /* background-color: #073b4c; */
-  /* background-image: url(laptop.jpg); */
-  /* background-repeat: no-repeat; */
+  background-color: #073b4c;
+  background-image: url(laptop.jpg);
+  background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -59,9 +59,11 @@ h1:hover {
   position: relative;
   top: 20px;
   font-size: 10px;
+  color: #fff;
 }
 .name {
   padding-top: -10px;
+  color: orange;
 }
 .body {
   display: flex;
@@ -104,6 +106,13 @@ h2 {
   margin: 30px;
   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
   transition: 0.1s;
+}
+.Touch{
+  text-align: center;
+  margin-top: 250px;
+}
+.birthdayCard:hover .Touch {
+  visibility: hidden;
 }
 
 .balloons {
@@ -187,14 +196,14 @@ h2 {
 .cardInside {
   position: absolute;
   background-color: #fff;
-  border: 2px solid yellowgreen;
+  border: 2px solid rgba(9, 10, 6, 0.452);
   width: 250px;
   height: 400px;
-  z-index: -1;
+  z-index: -3;
   left: 0;
   top: 0;
   box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2);
-  /* background-image: url(IMG_20230714_20335222.jpg); */
+  background-image: url(images/ji.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -203,7 +212,7 @@ h2 {
 p {
   font-family: cursive;
   /* margin: 40px; */
-  color: #000000;
+  color: #000;
 }
 
 h1 {
