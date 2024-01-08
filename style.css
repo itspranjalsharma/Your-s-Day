@@ -25,32 +25,6 @@ h1:hover {
   color: black;
 }
 
-/* images hover effect 
-
-
-.image {
-  width: 20vmin;
-  position: absolute;
-  transform: translate(-50%, -50%);
-}
-
-.image[data-status="inactive"] {
-  display: none;
-}
-
-.image[data-status="active"] {
-  display: block;
-}
-
-
-
-*/
-/* .name{
-  position: relative;
-  right: -170px;
-  top: 1px;
-} */
-
 .right {
   position: relative;
   right: -180px;
@@ -213,9 +187,20 @@ h1 {
   background: #555;
 }
 
-@media only screen and (max-width: 600px) {
- .body{
+@media only screen and (max-width: 350px) {
+ body{
   margin: auto;
   width: 50%;
  }
+ .birthdayCard {
+  position: relative;
+  width: 80%;
+  height: 60%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transform: perspective(2500px);
+  transition: 1s;
+}
+
+
 }
