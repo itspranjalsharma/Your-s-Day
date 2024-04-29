@@ -25,7 +25,7 @@
 //     activate(lead, e.clientX, e.clientY);
 
 //     if(tail) tail.dataset.status = "inactive";
-    
+
 //     globalIndex++;
 //   }
 // }
@@ -36,34 +36,36 @@
 
 //^ images hover effect endd
 
-
-
+// Disbleing  right click
+document.addEventListener("contextmenu", (event) => {
+  event.preventDefault();
+});
 
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 let interval = null;
 
-document.querySelector(".name").onmouseover = event => {  
+document.querySelector(".name").onmouseover = (event) => {
   let iteration = 0;
-  
+
   clearInterval(interval);
-  
+
   interval = setInterval(() => {
     event.target.innerText = event.target.innerText
       .split("")
       .map((letter, index) => {
-        if(index < iteration) {
+        if (index < iteration) {
           return event.target.dataset.value[index];
         }
-      
-        return letters[Math.floor(Math.random() * 26)]
+
+        return letters[Math.floor(Math.random() * 26)];
       })
       .join("");
-    
-    if(iteration >= event.target.dataset.value.length){ 
+
+    if (iteration >= event.target.dataset.value.length) {
       clearInterval(interval);
     }
-    
+
     iteration += 1 / 8;
   }, 30);
-}
+};

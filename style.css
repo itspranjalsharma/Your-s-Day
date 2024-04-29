@@ -12,6 +12,14 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+::-moz-selection {
+  /* Code for Firefox */
+  color: rgb(238, 151, 51);
+}
+
+::selection {
+  color: rgb(238, 151, 51);
+}
 h1 {
   font-family: "Space Mono", monospace;
   font-size: clamp(3rem, 10vw, 10rem);
@@ -188,19 +196,17 @@ h1 {
 }
 
 @media only screen and (max-width: 350px) {
- body{
-  margin: auto;
-  width: 50%;
- }
- .birthdayCard {
-  position: relative;
-  width: 80%;
-  height: 60%;
-  cursor: pointer;
-  transform-style: preserve-3d;
-  transform: perspective(2500px);
-  transition: 1s;
-}
-
-
+  body {
+    margin: auto;
+    width: 50%;
+  }
+  .birthdayCard {
+    position: relative;
+    width: 80%;
+    height: 60%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform: perspective(2500px);
+    transition: 1s;
+  }
 }
