@@ -34,13 +34,14 @@
 
 // window.ontouchmove = e => handleOnMove(e.touches[0]);
 
-//^ images hover effect endd
+// images hover effect endd
 
-// Disbleing  right click
-document.addEventListener("contextmenu", (event) => {
-  event.preventDefault();
-});
-// end
+//* Disbleing  right click
+// document.addEventListener("contextmenu", (event) => {
+//   event.preventDefault();
+// });
+//* end
+
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 let interval = null;
@@ -59,7 +60,6 @@ document.querySelector(".name").onmouseover = (event) => {
         }
 
         return letters[Math.floor(Math.random() * 26)];
-        
       })
       .join("");
 

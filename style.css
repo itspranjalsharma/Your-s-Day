@@ -20,6 +20,9 @@ body {
 ::selection {
   color: rgb(238, 151, 51);
 }
+span{
+  color: white;
+}
 h1 {
   font-family: "Space Mono", monospace;
   font-size: clamp(3rem, 10vw, 10rem);
@@ -42,18 +45,18 @@ h1:hover {
   position: relative;
   top: 20px;
   font-size: 15px;
-  color: #4d57b1;
+  color: #0920f3;
 }
 .name {
   /* padding-top: -5px; */
   font-size: 19px;
-  color: rgb(17, 14, 8);
+  color: rgb(255, 255, 255);
 }
 .body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 h2 {
@@ -89,12 +92,10 @@ img {
 }
 .Touch {
   text-align: center;
-  margin-top: 250px;
+  margin-top: 40px;
+  font-size: 45px;
+  color: white;
 }
-.birthdayCard:hover .Touch {
-  visibility: hidden;
-}
-
 .cardInside {
   position: absolute;
   background-color: #fff;
@@ -105,7 +106,7 @@ img {
   left: 0;
   top: 0;
   box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2);
-  /* background-image: url(); */
+  background-image: url(/images/Capture.PNG);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
