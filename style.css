@@ -50,7 +50,7 @@ h1:hover {
 .name {
   /* padding-top: -5px; */
   font-size: 19px;
-  color: rgb(0, 0, 0);
+  color: black;
 }
 .body {
   display: flex;
