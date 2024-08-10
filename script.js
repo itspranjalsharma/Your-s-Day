@@ -37,9 +37,9 @@
 // images hover effect endd
 
 //* Disbleing  right click
-// document.addEventListener("contextmenu", (event) => {
-//   event.preventDefault();
-// });
+document.addEventListener("contextmenu", (event) => {
+  event.preventDefault();
+});
 //* end
 
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";

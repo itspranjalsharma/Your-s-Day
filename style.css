@@ -50,7 +50,7 @@ h1:hover {
 .name {
   /* padding-top: -5px; */
   font-size: 19px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 .body {
   display: flex;
@@ -106,7 +106,7 @@ img {
   left: 0;
   top: 0;
   box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2);
-  background-image: url(/images/Capture.PNG);
+  /* background-image: url(/images/Capture.PNG); */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
