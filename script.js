@@ -40,7 +40,7 @@
 document.addEventListener("contextmenu", (event) => {
   event.preventDefault();
 });
-
+// end
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 let interval = null;
@@ -59,6 +59,7 @@ document.querySelector(".name").onmouseover = (event) => {
         }
 
         return letters[Math.floor(Math.random() * 26)];
+        
       })
       .join("");
 
